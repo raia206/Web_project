@@ -1,0 +1,80 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.backvideo{
+    position: absolute;
+    z-index: -1;
+   min-width: 200%;
+    min-height: 200%;
+
+}
+
+
+
+
+
+
+
+
+element.style {
+}
+
+.a{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: brown;
+    font-size: 20px;
+    border: 2px solid brown;
+    padding: 10px 10px;
+    border-radius: 100px;
+    left: 300px;
+    top: 500px;
+}
+
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+
+
+
+#vi1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+div.w1 {
+    --color-1: #0d3c29;
+    --color-2: brown;
+    --color-3: #0d3c29;
+    animation: color-animation 4s linear infinite;
+}
+div.w2 {
+    --color-1:  brown;
+    --color-2:#0d3c33;
+    --color-3: brown;
+    animation: color-animation 4s linear infinite;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
